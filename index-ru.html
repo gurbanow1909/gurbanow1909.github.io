@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon"/>
+
+        <title>Murat's Portfolio</title>
+        <meta name="description" content="Адаптивный сайт-визитка"/>
+
+        <!-- box icons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+
+        <!-- lang icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+
+        <!-- css -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-------------- HEADER -------------->
+
+        <header class="header">
+            <a href="#home" class="logo">Portfolio</a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#about" class="active">Обо мне</a>
+                <a href="#services" class="active">Навыки</a>
+                <a href="#portfolio" class="active">Проекты</a>
+                <a href="#contact" class="active">Контакты</a>
+                <a href="index.html" class="active lang"><span class="fi fi-us"></span></a>
+            </nav>
+        </header>
+
+        <!-------------- HOME -------------->
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Гурбанов Мырат</h1>
+                <h3>Я <span class="multiple-text"></span></h3>
+                <p>В 16 мне сказали, что я не смогу стать программистом. А&nbsp;теперь&nbsp;я занимаюсь профессией мечты&nbsp;🦸‍</p>
+                <div class="social-media">
+                    <a href="https://github.com/gurbanow1909" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://t.me/notwutt" target="_blank"><i class='bx bxl-telegram'></i></a>
+                    <a href="https://dev.to/" target="_blank"><i class='bx bxl-dev-to'></i></a>
+                </div>
+                <a href="#about" class="btn">Побольше обо мне</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/img1.png" alt="Фото в форме круга">
+            </div>
+        </section>
+
+        <!-------------- ABOUT -------------->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/immm.jpg" alt="Фото в форме круга">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">Обо <span>мне</span></h2>
+                <h3>Front-end & Back-end Developer</h3>
+                <p>Я завершил почти годовой курс Java-разработчик от Яндекс Практикум, на котором получил опыт,
+                    в том числе командной разработки и подготовился к работе на позиции Junior Java Developer.</p>
+
+                <p>По итогам обучения обладаю навыками Java, Spring (Boot, MVC, Security, Data), SQL, Hibernate, REST API,
+                    Docker, Mockito, JUnit, Maven, Git, а также Thymeleaf, HTML, CSS, JavaScript.</p>
+
+                <p>Под руководством ментора развиваюсь в направлении Full-Stack разработки.</p>
+            </div>
+        </section>
+
+        <!-------------- SERVICES -------------->
+
+        <section class="services" id="services">
+            <h2 class="heading">Мои <span>навыки</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxl-java'></i>
+                    <h3>Backend Разработка</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring (Boot, MVC, Security, Data)</li>
+                        <li>SQL (PostgreSQL)</li>
+                        <li>Hibernate</li>
+                        <li>REST API</li>
+                        <li>JUnit, Mockito</li>
+                        <li>Thymeleaf</li>
+                        <li>Maven</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Frontend Разработка</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-------------- PORTFOLIO -------------->
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Последние <span>проекты</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/explore-with-me.png" alt="Картинка проекта Explore with me">
+                    <div class="portfolio-layer">
+                        <h4>Explore with me</h4>
+                        <p>Микросервисное приложение-афиша мероприятий</p>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/quiz-website.png" alt="Картинка проекта Quiz Website">
+                    <div class="portfolio-layer">
+                        <h4>Quiz Website</h4>
+                        <p>Интерактивная страница с pop-up квизом и круговой диаграммой результатов</p>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/bubble-sort.png" alt="Картинка проекта Bubble sort">
+                    <div class="portfolio-layer">
+                        <h4>Bubble Sort</h4>
+                        <p>Веб-приложение для сортировки массива пузырьковым методом</p>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/share-it.png" alt="Картинка проекта Share it">
+                    <div class="portfolio-layer">
+                        <h4>Share It</h4>
+                        <p>Микросервисное приложение для аренды вещей</p>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------- CONTACT -------------->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Связаться <span>со мной</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input required type="text" placeholder="Полное имя">
+                    <input required id="email" type="text" placeholder="Электронная почта">
+                </div>
+
+                <div class="input-box">
+                    <input required type="text" id="phone" placeholder="Телефон для связи">
+                    <input required type="text" placeholder="Тема письма">
+                </div>
+                <textarea required cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                <input type="submit" id="contact-button" class="btn" value="Отправить">
+
+            </form>
+
+        </section>
+
+        <!-------------- FOOTER -------------->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024</p>
+            </div>
+
+            <div class="footer-icon-top">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-------------- SCROLL REVEAL -------------->  
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-------------- TYPED JS -------------->  
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-------------- CUSTOM JS -------------->  
+        <script src="script.js"></script>
+
+    </body>
+</html>
